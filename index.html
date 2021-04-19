@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- <link rel="profile" href="https://gmpg.org/xfn/11" /> -->
+<style type="text/css">	
+body{
+	font-family: Raleway;
+}	
+.heateorSssInstagramBackground{
+	background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)
+}
+div.heateor_sss_horizontal_sharing i.heateorSssInstagramBackground{
+	background:#ffffff!important;
+}
+div.heateor_sss_standard_follow_icons_container i.heateorSssInstagramBackground{
+	background:#ffffff;
+}
+.heateor_sss_horizontal_sharing .heateorSssSharing,.heateor_sss_standard_follow_icons_container .heateorSssSharing{
+	background-color: #ffffff;
+	color: #ff9900;
+	border-width: 0px;
+	border-style: solid;
+	border-color: transparent;
+}
+.heateor_sss_horizontal_sharing .heateorSssSharing:hover,.heateor_sss_standard_follow_icons_container .heateorSssSharing:hover{
+	color: #333;
+	border-color: transparent;
+}
+.heateor_sss_vertical_sharing .heateorSssSharing,.heateor_sss_floating_follow_icons_container .heateorSssSharing{
+	color: #fff;
+	border-width: 0px;
+	border-style: solid;
+	border-color: transparent;
+}
+.heateor_sss_vertical_sharing .heateorSssSharing:hover,.heateor_sss_floating_follow_icons_container .heateorSssSharing:hover{
+	border-color: transparent;
+}
+		
+@media screen and (max-width:783px) {
+	.heateor_sss_vertical_sharing{
+		display:none!important
+	}
+}
+@media screen and (max-width:783px) {
+	.heateor_sss_floating_follow_icons_container{
+		display:none!important
+	}
+}
+</style>
+
+<style scoped="scoped" >
+	@media (max-width : 480px) {
+		.fc_modal-dialog-20 .fc-pagination-cover .fc-pagination
+		{
+			background-color: #ffffff !important;
+		}
+	}
+				.formcraft-css .fc-form.fc-form-20 .form-element .submit-cover .submit-button,
+	.formcraft-css .fc-form.fc-form-20 .form-element .fileupload-cover .button-file,
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover .button,
+	.formcraft-datepicker .ui-datepicker-header,
+	.formcraft-datepicker .ui-datepicker-title
+	{
+		background: #f7a246;
+		color: #fff;
+	}
+	.formcraft-datepicker td .ui-state-active,
+	.formcraft-datepicker td .ui-state-hover,
+	.formcraft-css .fc-form.fc-form-20 .form-element .slider-cover .ui-slider-range
+	{
+		background: #f7a246;
+	}
+	#ui-datepicker-div.formcraft-datepicker .ui-datepicker-header,
+	.formcraft-css .fc-form .field-cover>div.full hr
+	{
+		border-color: #d98e3d;
+	}
+	#ui-datepicker-div.formcraft-datepicker .ui-datepicker-prev:hover,
+	#ui-datepicker-div.formcraft-datepicker .ui-datepicker-next:hover,
+	#ui-datepicker-div.formcraft-datepicker select.ui-datepicker-month:hover,
+	#ui-datepicker-div.formcraft-datepicker select.ui-datepicker-year:hover
+	{
+		background-color: #d98e3d;
+	}
+	.formcraft-css .fc-pagination>div.active .page-number,
+	.formcraft-css .form-cover-builder .fc-pagination>div:first-child .page-number
+	{
+		background-color: #f7a246;
+		color: #fff;
+	}
+	#ui-datepicker-div.formcraft-datepicker table.ui-datepicker-calendar th,
+	#ui-datepicker-div.formcraft-datepicker table.ui-datepicker-calendar td.ui-datepicker-today a,
+	.formcraft-css .fc-form.fc-form-20 .form-element .star-cover label,
+	html .formcraft-css .fc-form.label-floating .form-element .field-cover.has-focus>span,
+	.formcraft-css .fc-form.fc-form-20 .form-element .customText-cover a,
+	.formcraft-css .prev-next>div span:hover
+	{
+		color: #f7a246;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .customText-cover a:hover
+	{
+		color: #d98e3d;
+	}
+	html .formcraft-css .fc-form.fc-form-20.label-floating .form-element .field-cover > span
+	{
+		color: #666666;
+	}
+	html .formcraft-css .fc-form .final-success .final-success-check {
+		border: 2px solid #666666;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="text"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="email"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="password"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="tel"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover textarea,
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover select,
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover .time-fields-cover,
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover .awesomplete ul
+	{
+		color: #777;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="text"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="password"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="email"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="radio"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="checkbox"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="tel"],
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover select,
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover textarea
+	{
+		background-color: #fafafa;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="radio"]:checked,
+	.formcraft-css .fc-form.fc-form-20 .form-element .field-cover input[type="checkbox"]:checked {
+		border-color: #d98e3d;
+		background: #f7a246;				
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .star-cover label .star
+	{
+		text-shadow: 0px 1px 0px #d98e3d;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .slider-cover .ui-slider-range
+	{
+		box-shadow: 0px 1px 1px #d98e3d inset;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .fileupload-cover .button-file
+	{
+		border-color: #d98e3d;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html input[type="password"]:focus,
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html input[type="email"]:focus,
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html input[type="tel"]:focus,
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html input[type="text"]:focus,
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html textarea:focus,
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html select:focus
+	{
+		border-color: #f7a246;
+	}
+	.formcraft-css .fc-form.fc-form-20 .form-element .form-element-html .field-cover .is-read-only:focus {
+		border-color: #ccc;
+	}
+	.formcraft-css .fc-form.fc-form-20			{
+		font-family: inherit;
+	}
+	@media (max-width : 480px) {
+		html .dedicated-page,
+		html .dedicated-page .formcraft-css .fc-pagination > div.active
+		{
+			background: #ffffff;
+		}
+	}
+</style>
+<title>Career Opportunities in Indonesia - FORMULATRIX®</title>
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700%7CRoboto%3A100%2C300%2C400%2C700%7CMontserrat%3Aregular%2C%20700%2C%20%7CMontserrat%3A700%2C%20700%2C%20%7CMontserrat%3A300%2C400%2C700%2C300%7CRaleway%3A300&#038;subset=latin%2Clatin-ext&#038;display=swap" /> -->
+<link rel="stylesheet" href="https://q8w3v3x5.rocketcdn.me/wp-content/cache/min/1/0a48b654912ddd354dbc6aabb545349e.css" media="all" data-minify="1" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<!-- <link href="https://fonts.gstatic.com" crossorigin rel="preconnect" /> -->
+<!-- <link href="https://q8w3v3x5.rocketcdn.me" rel="preconnect" /> -->
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<style id="wp-custom-css">
+	.fas {
+		font-weight:900 !important;
+	}
+</style>
+
+<noscript>
+	<style id="rocket-lazyload-nojs-css">
+		.rll-youtube-player, [data-lazy-src]{
+			display:none !important;
+		}
+	</style>
+</noscript>
+</head>
+<body class="page-template-default page page-id-1230 page-parent page-child parent-pageid-1225 fl-builder fl-theme-builder-footer fl-theme-builder-header fl-framework-base fl-preset-default fl-full-width fl-scroll-to-top" itemscope="itemscope" itemtype="" style="font-family: Raleway;">
+	<a aria-label="Skip to content" class="fl-screen-reader-text" href="#fl-main-content">Skip to content</a>
+	<div class="fl-page">
+		<header class="fl-builder-content fl-builder-content-1077 fl-builder-global-templates-locked" data-post-id="1077" data-type="header" data-sticky="1" data-sticky-breakpoint="medium" data-shrink="0" data-overlay="1" data-overlay-bg="transparent" data-shrink-image-height="50px" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-5a1c3b23567c8" data-node="5a1c3b23567c8">
+				<div class="fl-row-content-wrap">
+					<div class="fl-row-content fl-row-fixed-width fl-node-content">
+						<div class="fl-col-group fl-node-5a1c3b2356806 fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="5a1c3b2356806">
+							<div class="fl-col fl-node-5a1c3b235683e fl-col-small" data-node="5a1c3b235683e">
+								<div class="fl-col-content fl-node-content">
+									<div class="fl-module fl-module-photo fl-node-5a3b523fd5ad2" data-node="5a3b523fd5ad2">
+										<div class="fl-module-content fl-node-content">
+											<div class="fl-photo fl-photo-align-left" itemscope itemtype="https://schema.org/ImageObject">
+												<div class="fl-photo-content fl-photo-img-png">
+													<a href="#" target="" itemprop="url">
+														<picture class="fl-photo-img wp-image-2501 size-full" itemprop="image" title="formulatrix-logo-grey-orange-upper" data-no-lazy="1">
+															<source type="image/webp" srcset="https://q8w3v3x5.rocketcdn.me/wp-content/uploads/2017/11/formulatrix-logo-grey-orange-upper-6.png.webp 565w, https://q8w3v3x5.rocketcdn.me/wp-content/uploads/2017/11/formulatrix-logo-grey-orange-upper-6-300x34.png.webp 300w" sizes="(max-width: 565px) 100vw, 565px"/>
+																<img src="https://q8w3v3x5.rocketcdn.me/wp-content/uploads/2017/11/formulatrix-logo-grey-orange-upper-6.png" alt="formulatrix-logo-grey-orange-upper" itemprop="image" height="64" width="565" data-no-lazy="1" srcset="https://q8w3v3x5.rocketcdn.me/wp-content/uploads/2017/11/formulatrix-logo-grey-orange-upper-6.png 565w, https://q8w3v3x5.rocketcdn.me/wp-content/uploads/2017/11/formulatrix-logo-grey-orange-upper-6-300x34.png 300w" sizes="(max-width: 565px) 100vw, 565px"/>
+														</picture>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="fl-col fl-node-5a1c3b2356875" data-node="5a1c3b2356875">
+								<div class="fl-col-content fl-node-content">
+									<div class="fl-module fl-module-menu fl-node-5a1c3b23568e2" data-node="5a1c3b23568e2">
+										<div class="fl-module-content fl-node-content">
+											<div class="fl-menu fl-menu-responsive-toggle-mobile">
+												<button class="fl-menu-mobile-toggle hamburger" aria-label="Menu">
+													<span class="svg-container">
+														<svg version="1.1" class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+															<rect class="fl-hamburger-menu-top" width="512" height="102"/>
+															<rect class="fl-hamburger-menu-middle" y="205" width="512" height="102"/>
+															<rect class="fl-hamburger-menu-bottom" y="410" width="512" height="102"/>
+														</svg>
+													</span>
+												</button>
+												<div class="fl-clear"></div>
+												<nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+													<ul id="menu-main-menu-primary-navigation" class="menu fl-menu-horizontal fl-toggle-none">
+														<li id="menu-item-3036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">Applications</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">
+																<li id="menu-item-9659" class="menu-item menu-item-type-post_type menu-item-object-page">
+																	<a href="#">Submenu 01</a>
+																</li>
+															</ul>
+														</li>
+														<li id="menu-item-20" class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">Products</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">	
+																
+															</ul>
+														</li>
+														<li id="menu-item-44" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">Innovations</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">
+																<li id="menu-item-3370" class="menu-item menu-item-type-post_type menu-item-object-page">
+																	<a href="#">Submenu 01</a>
+																</li>
+																
+															</ul>
+														</li>
+														<li id="menu-item-1355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">About</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">
+																<li id="menu-item-2541" class="menu-item menu-item-type-post_type menu-item-object-page">
+																	<a href="#">Submenu 01</a>
+																</li>
+																
+															</ul>
+														</li>
+														<li id="menu-item-7744" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">Resources</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">
+																<li id="menu-item-4358" class="menu-item menu-item-type-post_type menu-item-object-page">
+																	<a href="#">Submenu 01</a>
+																</li>
+																
+															</ul>
+														</li>
+														<li id="menu-item-1356" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">Careers</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">
+																<li id="menu-item-1871" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1230 current_page_item">
+																	<a href="#">Old Indonesia Career Page</a>
+																</li>
+																
+															</ul>
+														</li>
+														<li id="menu-item-1379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children fl-has-submenu">
+															<div class="fl-has-submenu-container">
+																<a href="#">Contact</a>
+																<span class="fl-menu-toggle"></span>
+															</div>
+															<ul class="sub-menu">
+																<li id="menu-item-1378" class="menu-item menu-item-type-post_type menu-item-object-page">
+																	<a href="#">Submenu 01</a>
+																</li>
+															</ul>
+														</li>
+														<li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom">
+															<a href="#">Shop</a>
+														</li>
+													</ul>
+												</nav>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>	
+		<div id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">	
+			<div class="fl-content-full container">
+				<div class="row">
+					<div class="fl-content col-md-12">
+						<article class="fl-post post-1230 page type-page status-publish has-post-thumbnail hentry" id="fl-post-1230" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+							<div class="fl-post-content clearfix" itemprop="text">
+								<div class="fl-builder-content fl-builder-content-1230 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="1230">
+									<div class="fl-row fl-row-full-width fl-row-bg-slideshow fl-node-5a29676075249 fl-row-bg-overlay" data-node="5a29676075249">
+										<div class="fl-row-content-wrap">
+											<div class="fl-bg-slideshow"></div>
+											<div class="fl-row-content fl-row-fixed-width fl-node-content">
+												<div class="fl-col-group fl-node-5a29676074fff" data-node="5a29676074fff">
+													<div class="fl-col fl-node-5a29676075110" data-node="5a29676075110">
+														<div class="fl-col-content fl-node-content">
+															<div class="fl-module fl-module-rich-text fl-node-5a29676075146 fl-visible-desktop" data-node="5a29676075146">
+																<div class="fl-module-content fl-node-content">
+																	<div class="fl-rich-text">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="fl-col-group fl-node-5a29676074fc5" data-node="5a29676074fc5">
+													<div class="fl-col fl-node-5a296760750a3" data-node="5a296760750a3">
+														<div class="fl-col-content fl-node-content">
+															<div class="fl-module fl-module-heading fl-node-5a296760750d9" data-node="5a296760750d9">
+																<div class="fl-module-content fl-node-content">
+																	<h1 class="fl-heading">
+																		<span class="fl-heading-text">Careers</span>
+																	</h1>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="fl-col-group fl-node-5a2967607506c" data-node="5a2967607506c">
+													<div class="fl-col fl-node-5a296760751e8" data-node="5a296760751e8">
+														<div class="fl-col-content fl-node-content">
+															<div class="fl-module fl-module-heading fl-node-5a2967607521e" data-node="5a2967607521e">
+																<div class="fl-module-content fl-node-content">
+																	<h2 class="fl-heading">
+																		<span class="fl-heading-text">Indonesia Opportunities</span>
+																	</h2>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="fl-col-group fl-node-5a29676075036" data-node="5a29676075036">
+													<div class="fl-col fl-node-5a2967607517c" data-node="5a2967607517c">
+														<div class="fl-col-content fl-node-content">
+															<div class="fl-module fl-module-rich-text fl-node-5a296760751b2 fl-visible-desktop" data-node="5a296760751b2">
+																<div class="fl-module-content fl-node-content">
+																	<div class="fl-rich-text">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="fl-row fl-row-full-width fl-row-bg-gradient fl-node-5a20ce2a5ef2e" data-node="5a20ce2a5ef2e">
+										<div class="fl-row-content-wrap">
+											<div class="fl-row-content fl-row-fixed-width fl-node-content">
+												<div class="fl-col-group fl-node-5a20ce2a5ee8b" data-node="5a20ce2a5ee8b">
+													<div class="fl-col fl-node-5a20ce2a5eec1" data-node="5a20ce2a5eec1">
+														<div class="fl-col-content fl-node-content">
+															<div class="fl-module fl-module-menu fl-node-5a20ce2a5eef8" data-node="5a20ce2a5eef8">
+																<div class="fl-module-content fl-node-content">
+																	<div class="fl-menu fl-menu-responsive-toggle-mobile">
+																		<button class="fl-menu-mobile-toggle hamburger" aria-label="Menu">
+																			<span class="svg-container">
+																				<svg version="1.1" class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+																					<rect class="fl-hamburger-menu-top" width="512" height="102"/>
+																					<rect class="fl-hamburger-menu-middle" y="205" width="512" height="102"/>
+																					<rect class="fl-hamburger-menu-bottom" y="410" width="512" height="102"/>
+																				</svg>
+																			</span>
+																		</button>
+																		<div class="fl-clear">
+
+																		</div>
+																		<nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+																			<ul id="menu-secondary-menu-careers" class="menu fl-menu-horizontal fl-toggle-none">
+																				<li id="menu-item-1243" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent">
+																					<li id="menu-item-1245" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1230 current_page_item">
+																						<a href="#">Old Indonesia career page preview</a>
+																					</li>
+																				</li>
+																			</ul>
+																		</nav>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-5a20ce2a5f073" data-node="5a20ce2a5f073">
+											<div class="fl-row-content-wrap">
+												<div class="fl-row-content fl-row-fixed-width fl-node-content">	
+													<div class="fl-col-group fl-node-5a20ce2a5f0a9" data-node="5a20ce2a5f0a9">
+														<div class="fl-col fl-node-5a20ce2a5f0e0 fl-col-has-cols" data-node="5a20ce2a5f0e0">
+															<div class="fl-col-content fl-node-content">
+																<div class="fl-col-group fl-node-5a20ce2a5f14c fl-col-group-nested" data-node="5a20ce2a5f14c">
+																	<div class="fl-col fl-node-5a20ce2a5f182" data-node="5a20ce2a5f182">
+																		<div class="fl-col-content fl-node-content">
+																			<div class="fl-module fl-module-heading fl-node-5a20cee72ccb1" data-node="5a20cee72ccb1">
+																				<div class="fl-module-content fl-node-content">
+																					<h3 class="fl-heading">
+																						<span class="fl-heading-text">Indonesia Office</span>
+																					</h3>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-rich-text fl-node-5a20cef55223e" data-node="5a20cef55223e">
+																				<div class="fl-module-content fl-node-content">
+																					<div class="fl-rich-text">
+																						<p>
+																							PT. Formulatrix Indonesia was established in 2006 to manufacture and develop laboratory automation hardware and software for the life science.
+																						</p>
+																						
+																						<p>
+																							The company is located in the Central Java city of Salatiga, a small city with cool weather and beautiful scenery as well as the developing city
+																							of Semarang. Formulatrix has both a manufacturing and engineering division developing advanced automation and robotics. Over
+																							the years we have expanded our office space to multiples sites with over 100.000 square feet for engineering and manufacturing space. The 
+																							company continues to experience aggressive growth with healthy profits because of our industry recognized patented technology and superior 
+																							software delivery services. We maintain a small-company culture with a worldwide outlook, with offices in the United States, Europe, and Asia.														
+																						</p>
+
+																						<p>
+																							We are seeking to hire people who are passionate about their work and enjoy doing it. We are rapidly expanding our employee base. We currently 
+																							have more than 300 full-time employees on staff and we are seeking even more talented individuals. Please consider joining a fun place to work 
+																							with a chance to challenge and grow yourself. See our available opportunities below.
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="fl-col fl-node-5a20d52fbd0de fl-col-small" data-node="5a20d52fbd0de">
+																		<div class="fl-col-content fl-node-content">
+																			<div class="fl-module fl-module-heading fl-node-5a20d52c1c5ad" data-node="5a20d52c1c5ad">
+																				<div class="fl-module-content fl-node-content">
+																					<h3 class="fl-heading">
+																						<span class="fl-heading-text">Contact</span>
+																					</h3>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-rich-text fl-node-5a20d53c11465" data-node="5a20d53c11465">
+																				<div class="fl-module-content fl-node-content">
+																					<div class="fl-rich-text">
+																						<p>
+																							<strong>Address</strong>
+																							<br>
+																							FORMULATRIX Indonesia
+																							<span style="color: #000000; font-family: Calibri;">
+																								<br>
+																							</span> 
+																							Jl. Soekarno Hatta 121
+																							<br>
+																							Salatiga, 50731
+																							<br>
+																							Indonesia
+																						</p>
+																						<p>
+																							<strong>Phone</strong>
+																							<br>
+																							+62 298 312 762
+																						</p>
+																						<p>
+																							<strong>Fax</strong>
+																							<br>
+																							+62 298 315 190
+																						</p>
+																						<p>
+																							<strong>Email</strong>
+																							<br>
+																							<strong>
+																								<a href="#">
+																									<span class="__cf_email__" data-cfemail="82ebece4edc2e4edf0eff7eee3f6f0ebfaace1edef">forindojob@formulatrix.com</span>
+																								</a>
+																							</strong>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="fl-col-group fl-node-5a20ce2a5f225 fl-col-group-nested" data-node="5a20ce2a5f225">
+																	<div class="fl-col fl-node-5a20ce2a5f23b" data-node="5a20ce2a5f23b">
+																		<div class="fl-col-content fl-node-content">
+																			<div class="fl-module fl-module-heading fl-node-5a20ce2a5f116" data-node="5a20ce2a5f116">
+																				<div class="fl-module-content fl-node-content">
+																					<h3 class="fl-heading">
+																						<span class="fl-heading-text">Opportunities</span>
+																					</h3>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-heading fl-node-5e3ce66dada46" data-node="5e3ce66dada46">
+																				<div class="fl-module-content fl-node-content">
+																					<h5 class="fl-heading">
+																						<span class="fl-heading-text">Engineering/R&D</span>
+																					</h5>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-rich-text fl-node-5a20ce2a5f60c" data-node="5a20ce2a5f60c">
+																				<div class="fl-module-content fl-node-content">
+																					<div class="fl-rich-text">
+																						<p>
+																							<strong><a class="various" href="#" data-fancybox-type="iframe">Software Quality Assurance</a></strong>
+																						</p>
+																						<p>
+																							<strong><a class="various" href="#" data-fancybox-type="iframe">RnD Software Engineer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">Technical Writer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">Senior Injection Molding Engineer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">UX Designer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">RnD Mechanical Design Engineer Expert</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">RnD Senior Electronic Engineer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">Electrical Quality Engineer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">RnD Senior Software Engineer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a href="#">RnD Mechanical Design Engineer</a></strong>
+																						</p>
+																						<p>
+																							<strong><a class="various" href="#" data-fancybox-type="iframe">Senior Mechanical Design Engineer</a></strong>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-heading fl-node-601902e5ac11f" data-node="601902e5ac11f">
+																				<div class="fl-module-content fl-node-content">
+																					<h5 class="fl-heading">
+																						<span class="fl-heading-text">General/Administration/HR</span>
+																					</h5>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-rich-text fl-node-601902e768891" data-node="601902e768891">
+																				<div class="fl-module-content fl-node-content">
+																					<div class="fl-rich-text">
+																						<p class="fl-heading">
+																							<strong>
+																								<span class="fl-heading-text">
+																									<a href="#">Personnel Admin</a>
+																									<br>
+																								</span>
+																								<p>
+																									<strong><a class="various" href="#" data-fancybox-type="iframe">Technical Recruitment Specialist</a></strong>
+																								</p>
+																							</strong>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-heading fl-node-605183dfc273a" data-node="605183dfc273a">
+																				<div class="fl-module-content fl-node-content">
+																					<h5 class="fl-heading">
+																						<span class="fl-heading-text">Information Technology</span>
+																					</h5>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-rich-text fl-node-605183e11bde3" data-node="605183e11bde3">
+																				<div class="fl-module-content fl-node-content">
+																					<div class="fl-rich-text">
+																						<p class="fl-heading">
+																							<a href="#" target="" rel="noopener">
+																								<strong>
+																									<span class="fl-heading-text">Web Developer</span>
+																								</strong>
+																							</a>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-heading fl-node-605183dfc273a" data-node="605183dfc273a">
+																				<div class="fl-module-content fl-node-content">
+																					<h5 class="fl-heading">
+																						<span class="fl-heading-text">Sales/Marketing</span>
+																					</h5>
+																				</div>
+																			</div>
+																			<div class="fl-module fl-module-rich-text fl-node-605183e11bde3" data-node="605183e11bde3">
+																				<div class="fl-module-content fl-node-content">
+																					<div class="fl-rich-text">
+																						<p class="fl-heading">
+																							<a href="#" target="" rel="noopener">
+																								<strong>
+																									<span class="fl-heading-text">Junior Graphic Designer</span>
+																								</strong>
+																							</a>
+																						</p><br>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- .fl-page-content -->
+	<footer class="fl-builder-content fl-builder-content-764 fl-builder-global-templates-locked" data-post-id="764" data-type="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+		<div class="fl-row fl-row-full-width fl-row-bg-gradient fl-node-59dd09c1b7ba2" data-node="59dd09c1b7ba2">
+			<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-fixed-width fl-node-content">
+					<div class="fl-col-group fl-node-5a342e488b5aa" data-node="5a342e488b5aa">
+						<div class="fl-col fl-node-5a342e488b914 fl-col-has-cols" data-node="5a342e488b914">
+							<div class="fl-col-content fl-node-content">
+								<div class="fl-col-group fl-node-5a3431391a22c fl-col-group-nested" data-node="5a3431391a22c">
+									<div class="fl-col fl-node-5a3431391a48c fl-col-small" data-node="5a3431391a48c">
+										<div class="fl-col-content fl-node-content">
+											<div class="fl-module fl-module-heading fl-node-59dd09c1b7f04" data-node="59dd09c1b7f04">
+												<div class="fl-module-content fl-node-content">
+													<h4 class="fl-heading">
+														<span class="fl-heading-text">Contact</span>
+													</h4>
+												</div>
+											</div>
+											<div class="fl-module fl-module-rich-text fl-node-59dd0af58c341" data-node="59dd0af58c341">
+												<div class="fl-module-content fl-node-content">
+													<div class="fl-rich-text">
+														<p style="text-align: center;">Ph: <a href="#">+1 781-788-0228</a></p>
+														<p style="text-align: center;">Fax: <a href="#">+1 781-207-5522</a></p>
+														<p style="text-align: center;">Email: <a href="#"><span class="__cf_email__" data-cfemail="640d0a020b24020b160911080510160d1c4a070b09">[email&#160;protected]</span></a></p>
+														<p style="text-align: center;">10 DeAngelo Drive, Bedford, MA 01730</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="fl-col fl-node-5a3431391a4c9 fl-col-small" data-node="5a3431391a4c9">
+										<div class="fl-col-content fl-node-content">
+											<div class="fl-module fl-module-heading fl-node-59dd0b3ecc99e" data-node="59dd0b3ecc99e">
+												<div class="fl-module-content fl-node-content">
+													<h4 class="fl-heading">
+														<span class="fl-heading-text">Connect</span>
+													</h4>
+												</div>
+											</div>
+											<div class="fl-module fl-module-pp-social-icons fl-node-59dd0b5a7cf9f" data-node="59dd0b5a7cf9f">
+												<div class="fl-module-content fl-node-content">
+													<div class="pp-social-icons pp-social-icons-center pp-social-icons-horizontal pp-responsive-center">
+														<span class="pp-social-icon" itemscope itemtype="http://schema.org/Organization">
+															<link itemprop="url" href="#">
+																<a itemprop="sameAs" href="#" target="" title="Facebook" aria-label="Facebook" role="button" rel="noopener nofollow" >
+																	<i class="fab fa-facebook"></i>
+																</a>
+														</span>
+														<span class="pp-social-icon" itemscope itemtype="http://schema.org/Organization">
+															<link itemprop="url" href="#">
+																<a itemprop="sameAs" href="#" target="" title="Twitter" aria-label="Twitter" role="button" rel="noopener nofollow" >
+																	<i class="fab fa-twitter"></i>
+																</a>
+														</span>
+														<span class="pp-social-icon" itemscope itemtype="http://schema.org/Organization">
+															<link itemprop="url" href="#">
+																<a itemprop="sameAs" href="#" target="" title="LinkedIn" aria-label="LinkedIn" role="button" rel="noopener nofollow" >
+																	<i class="fab fa-linkedin"></i>
+																</a>
+														</span>
+														<span class="pp-social-icon" itemscope itemtype="http://schema.org/Organization">
+															<link itemprop="url" href="#">
+															<a itemprop="sameAs" href="#" target="" title="YouTube" aria-label="YouTube" role="button" rel="noopener nofollow" >
+																<i class="fab fa-youtube"></i>
+															</a>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="fl-module fl-module-pp-smart-button fl-node-5a341cff07e51 pointer" data-node="5a341cff07e51">
+												<div class="fl-module-content fl-node-content">
+													<div class="pp-button-wrap pp-button-width-full">
+														<a href="#" target="" class="pp-button" role="button" aria-label="Tell Us About Your Project">
+															<span class="pp-button-text">Tell Us About Your Project</span>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="fl-module fl-module-html fl-node-5a3954e343de4" data-node="5a3954e343de4">
+												<div class="fl-module-content fl-node-content">
+													<div class="fl-html">
+														<div class="formcraft-css">
+															<div data-auto="" class="fc-form-modal fc_modal fc_fade animate-" id="modal-607d17627f77d">
+     															 <div class="fc_modal-dialog fc_modal-dialog-20">
+       																 <div data-bind="" data-uniq="607d17627f77d" class="uniq-607d17627f77d formcraft-css form-live align-left">
+        																<button class="fc_close" type="button" data-dismiss="fc_modal" aria-label="Close">
+           																	<span aria-hidden="true">&times;</span>
+         																</button>
+         	 															<div class="fc-pagination-cover fc-pagination-1">
+																			<div class="fc-pagination width-100">
+																				<div class="pagination-trigger " data-index="0">
+																					<span class="page-number"><span >1</span></span>
+																					<span class="page-name "></span>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="form-cover">														
+																			<div class="prev-next prev-next-1" style="width: 600px; color: #666666; font-size: 100%; background: #ffffff">
+																				<div>
+																					<span class="inactive page-prev "><i class="formcraft-icon">keyboard_arrow_left</i>Previous</span>
+																				</div>
+																				<div>
+																					<span class="page-next ">Next<i class="formcraft-icon">keyboard_arrow_right</i></span>
+																				</div>
+																			</div>
+																		</div>
+        															</div>
+																</div>
+     														</div>
+      													</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="fl-col fl-node-5a3431391a502 fl-col-small" data-node="5a3431391a502">
+										<div class="fl-col-content fl-node-content">
+											<div class="fl-module fl-module-heading fl-node-59dd0a8d27086" data-node="59dd0a8d27086">
+												<div class="fl-module-content fl-node-content">
+													<h4 class="fl-heading">
+														<span class="fl-heading-text">Discover</span>
+													</h4>
+												</div>
+											</div>
+											<div class="fl-module fl-module-rich-text fl-node-5a3432a5ce1d0" data-node="5a3432a5ce1d0">
+												<div class="fl-module-content fl-node-content">
+													<div class="fl-rich-text">
+														<p style="text-align: center;"><a href="#">About Us</a></p>
+														<p style="text-align: center;"><a href="#">Careers</a></p>
+														<p style="text-align: center;"><a href="#">Corporate Profile</a></p>
+														<p style="text-align: center;"><a href="#">Support</a></p>
+														<br><br>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-59dd09c1b7ac2" data-node="59dd09c1b7ac2">
+			<div class="fl-row-content-wrap">
+				<div class="fl-row-content fl-row-fixed-width fl-node-content">		
+					<div class="fl-col-group fl-node-59dd09c1b7afe" data-node="59dd09c1b7afe">
+						<div class="fl-col fl-node-59dd09c1b7b35" data-node="59dd09c1b7b35">
+							<div class="fl-col-content fl-node-content">
+								<div class="fl-module fl-module-rich-text fl-node-59dd09c1b7b6b" data-node="59dd09c1b7b6b">
+									<div class="fl-module-content fl-node-content">
+										<div class="fl-rich-text">
+											<p style="text-align: center;">© 2021 FORMULATRIX. All Rights Reserved.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<a href="#" id="fl-to-top"><span class="sr-only">Scroll To Top</span><i class="fas fa-chevron-up" aria-hidden="true"></i></a>
+</body>
+</html>
